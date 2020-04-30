@@ -1,196 +1,128 @@
-
-        <font face="symbol">
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="UTF-8">
     <title>Mon CV</title>
   </head>
-  <body>
- <div class = "page">
-    <div class = "info">
-       <CENTER><p><strong>
-        <font size="+3">MÉLANIE GICQUEL</font></strong><br/>
-        18/08/1999</p>
-    </p> 5 route du bignon - 44690 Château-Thébaud<br/>
-    06 63 60 79 49<br/>
- melanie.gicquel18@gmail.com</p>
- <p/>Permis B<p/></p></CENTER>
-            
-</div>
-
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
+  
    <style>
+   	
+   	.wrapper1{
+   		display:grid;
+   		grid-template-columns :3fr auto;
+   		grid-template-rows: 1fr 3fr 1fr;}
 
-    body{
-        width:100%;
-        
+   	.nom{
+   	 	grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end : 2;
+        text-align:center;}
+
+    .photo{
+   	 	grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end : 3;}
+    .infos{
+    	grid-column-start: 2;
+    	grid-column-end:3;
+    	grid-row-start:2;
+    	grid-row-end:3;
     }
 
-    #box{
-        padding:5px;
-        background-color: silver;
-        width: 500px;
-        display:block;
-        margin:auto;
+    .titres{
+    	display:block;
+    	background-color: silver;
+    	font-size: 100%;
+    	height:5em;
+    	color:white;
+    	text-align: center;
     }
 
-    h2{
-        color : white;
-        text-align: center;
-    } 
-    #p1{
-        text-align: left;
-        color: white;
+    .partieformation{
+    	text-align:center;
     }
-    #p2{
-        text-align: right;
-        color: white;
+
+    .partieexperience{
+    	text-align:center;
     }
-    </style>
-</head>
+
+    .partieautres{
+    	text-align:center;
+    }
+   </style>
 
 <body>
-    <div id="box">
-        <B><h2>Formation</h2></B>
-        
+ <div class="wrapper1">
+    <div class = "nom">
+    	<font size="+3">MÉLANIE GICQUEL</font>
     </div>
+    <div class = "photo">
+    	<img src="photocvhtml.jpg" width="200">
+    </div>
+    <div class="infos"> 
+    	<p>20 ans </p>
+    	<p> 5 route du bignon - 44690 Château-Thébaud</p>
+    	<p>06 63 60 79 49</p>
+		<p>melanie.gicquel18@gmail.com</p>
+ 		<p/>Permis B<p/>         
+	</div>
+</div>
+    
 
-</body>
+<div class="titres"> 
+<h2>Formation</h2>
+ </div>
 
-</html>
-
+<div class="partieformation">
         <ul>
-            
-
-             <center><p><strong>Septembre 2019 à Juillet 2020</strong></p></B>
+             <p><strong>Septembre 2019 à Juillet 2020</strong></p></B>
                 <p><span class = "titre">Licence Webmarketing & Social Media</span><br/>My Digital School, St Herblain</p>
             
-            <center><p><strong>Septembre 2017 à Septembre 2019</strong></p></B>
-                <p><span class = "titre">Obtention du diplome de BTS NRC (NÉGOCIATION RELATION CLIENT)</span><br/>Lycée la Herdrie, Basse Goulaine</p>  
+            <p><strong>Septembre 2017 à Septembre 2019</strong></p></B>
+                <p><span class = "titre">Obtention du diplome de BTS NRC (NÉGOCIATION RELATION CLIENT)</span><br/>Lycée la Herdrie, Basse Goulaine</p>
         
 
-            <B></p>Juin 2017</p></B>
+            </p>Juin 2017</p></B>
                 <p><span class = "titre">Obtention du diplome du Bac STMG</span><br/>Lycée Charles Peguy, Gorges</p>
-    </div class ="sec-droite">
-    <div/>
-    <div class ="sec-droite">
-</div></center>
-        <!DOCTYPE html>
-<html lang="fr">
+		</ul>
+</div>
 
-<head>
-    <meta charset="UTF-8">
-   <style>
-
-    body{
-        width:100%;
-        
-    }
-
-    #box{
-        padding:5px;
-        background-color: silver;
-        width: 500px;
-        display:block;
-        margin:auto;
-    }
+<div class="titres"><h2> Expériences professionnelles <h2></div>
 
 
-
-    h2{
-        color : white;
-        text-align: center;
-    } 
-    #p1{
-        text-align: left;
-        color: white;
-    }
-    #p2{
-        text-align: right;
-        color: white;
-    }
-    </style>
-</head>
-
-<body>
-    <div id="box">
-        <B><h2>Expériences professionnelles</h2></B>
-        
-    </div>
-
-</body>
-
-</html>
-
+<div class="partieexperience">
     <ul>
         
 
-            <center><p><strong>Septembre à aujourd'hui</strong></p></B>
+          <p><strong>Septembre à aujourd'hui</strong></p>
             <p><span class = "titre">Alternance - Chargée de communication chez HYPERVIRTUAL, St Herblain</span><br/>Gestion des réseaux sociaux, création de visuels, évenementiel, accueil client</p>
     
 
-            <B><p><strong>Juillet-Aout 2019</strong></p></B>
+            <p><strong>Juillet-Aout 2019</strong></p>
             <p><span class = "titre">Travail Saisonnier</span><br/>Agent d'accueil, Piscine Loroux Bottereaux</p>
         
 
-            <B><p><strong>Octobre 2018-Septembre 2019</strong></p></B>
-                <p><span class = "titre">Travail Etudiant </span><br/>Parc de Loisirs Galipy, St Sebastien</p></center><B>
-        </div>
-        <div class ="sec-droite">
+            <p><strong>Octobre 2018-Septembre 2019</strong></p></B>
+                <p><span class = "titre">Travail Etudiant </span><br/>Parc de Loisirs Galipy, St Sebastien</p>>
+
+    </ul>
 </div>
-                <!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-   <style>
-
-    body{
-        width:100%;
         
-    }
+               
+   
+    <div class="titres">
+        <h2>Autres Expériences Professionnelles</h2>
+        </div>
 
-    #box{
-        padding:5px;
-        background-color: silver;
-        width: 700px;
-        display:block;
-        margin:auto;
-    }
 
-    h2{
-        color : white;
-        text-align: center;
-    } 
-    #p1{
-        text-align: left;
-        color: white;
-    }
-    #p2{
-        text-align: right;
-        color: white;
-    }
-    </style>
-</head>
-
-<body>
-    <div id="box">
-         <B><h2>Autres Expériences Professionnelles</h2></B>
-        
-    </div>
-
-</body>
-
-</html>
+<div class="partieautres">
 
     <ul>
         
 
-            <center><p>Septembre 2019 à Juillet 2020</p></B>
+            <p>Septembre 2019 à Juillet 2020</p></B>
             <p><span class = "titre">Ambassadrice</span><br/>MY DIGITAL SCHOOL, St Herblain</p>
     
 
@@ -199,14 +131,10 @@
         
 
             <B><p>Mai-Juin 2018</p></B>
-                <p><span class = "titre">Commercial junior dans agence de publicité chez COMJR, La Haie Fouassière</span><br/>Phoning, prospection physique</p></center><B>
-        </div>
-            <div class ="sec-droite">
-</div>
+                <p><span class = "titre">Commercial junior dans agence de publicité chez COMJR, La Haie Fouassière</span><br/>Phoning, prospection physique</p><B>
+ </div>
+     
 
-        </div>
-    </font>
-
-	
-	
+</body>
  			
+</html>
