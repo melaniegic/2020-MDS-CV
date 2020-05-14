@@ -3,71 +3,92 @@
   <head>
     <meta charset="UTF-8">
     <title>Mon CV</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   
    <style>
-   	
-   	.wrapper1{
-   		display:grid;
-   		grid-template-columns :3fr auto;
-   		grid-template-rows: 1fr 3fr 1fr;}
+    body{
+        width:100%;
+        text-align: left;
+    }
+    .wrapper1{
+      display:grid;
+      grid-template-columns :3fr auto;
+      grid-template-rows: 1fr 3fr 1fr;
+      margin-right: 30%;
+      margin-left:30%;
+    }
+.header{background-color:#B7DECE;}
 
-   	.nom{
-   	 	grid-column-start: 1;
+    .nom{
+      grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end : 2;
         text-align:center;}
 
     .photo{
-   	 	grid-column-start: 1;
+      grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end : 3;}
+} 
+
+        
+    
     .infos{
-    	grid-column-start: 2;
-    	grid-column-end:3;
-    	grid-row-start:2;
-    	grid-row-end:3;
+      grid-column-start: 2;
+      grid-column-end:3;
+      grid-row-start:2;
+      grid-row-end:3;
+     
     }
 
     .titres{
-    	display:block;
-    	background-color: silver;
-    	font-size: 100%;
-    	height:5em;
-    	color:white;
-    	text-align: center;
+      display:block;
+      background-color: silver;
+      font-size: 100%;
+      height:5em;
+      color:white;
+      
+    
+    }
+    button{
+        text-align: center;
+        display: box;
+        margin:auto;
+        background-color:black;
+        color:white;
+   
     }
 
-    .partieformation{
-    	text-align:center;
-    }
-
-    .partieexperience{
-    	text-align:center;
-    }
-
-    .partieautres{
-    	text-align:center;
-    }
+    input
+{
+padding: 10px 30px;
+background: black;
+color: white;
+}
    </style>
 
 <body>
+  <div class="header">
  <div class="wrapper1">
     <div class = "nom">
-    	<font size="+3">MÉLANIE GICQUEL</font>
+      <font size="+3">MÉLANIE GICQUEL</font>
     </div>
     <div class = "photo">
-    	<img src="photocvhtml.jpg" width="200">
+      <img src="photocvhtml.jpg" width="150">
     </div>
     <div class="infos"> 
-    	<p>20 ans </p>
-    	<p> 5 route du bignon - 44690 Château-Thébaud</p>
-    	<p>06 63 60 79 49</p>
-		<p>melanie.gicquel18@gmail.com</p>
- 		<p/>Permis B<p/>         
-	</div>
+      <p>20 ans </p>
+      <p> 5 route du bignon - 44690 Château-Thébaud</p>
+      <p>06 63 60 79 49</p>
+    <p>melanie.gicquel18@gmail.com</p>
+    <p>Permis B<p/>
+        <p><strong>Bachelor Webmarketing & Social Media</strong></p> 
+        <input type="button" value="Mon CV" onclick="lienducv.pdf"></input>       
+  </div></p></p></div>
+
 </div>
     
 
@@ -77,35 +98,36 @@
 
 <div class="partieformation">
         <ul>
-             <p><strong>Septembre 2019 à Juillet 2020</strong></p></B>
-                <p><span class = "titre">Licence Webmarketing & Social Media</span><br/>My Digital School, St Herblain</p>
+             <p><strong>Septembre 2019 à Juillet 2020</strong></p></B>
+             
+               <li><p><span class = "titre">Licence Webmarketing & Social Media</span><br/>My Digital School, St Herblain</p></li> 
             
-            <p><strong>Septembre 2017 à Septembre 2019</strong></p></B>
-                <p><span class = "titre">Obtention du diplome de BTS NRC (NÉGOCIATION RELATION CLIENT)</span><br/>Lycée la Herdrie, Basse Goulaine</p>
+            <p><strong>Septembre 2017 à Septembre 2019</strong></p></B>
+                <li><span class = "titre">Obtention du diplome de BTS NRC (NRC)</span><br/>Lycée la Herdrie, Basse Goulaine</p></li><p>
         
 
-            </p>Juin 2017</p></B>
-                <p><span class = "titre">Obtention du diplome du Bac STMG</span><br/>Lycée Charles Peguy, Gorges</p>
-		</ul>
+            </p><strong>Juin 2017</strong></p></B>
+               <li><p><span class = "titre">Obtention du diplome du Bac STMG</span><br/>Lycée Charles Peguy, Gorges</p></li> 
+    </ul>
 </div>
 
-<div class="titres"><h2> Expériences professionnelles <h2></div>
+<div class="titres"><h2> Expériences professionnelles <h2></div>
 
 
 <div class="partieexperience">
     <ul>
         
 
-          <p><strong>Septembre à aujourd'hui</strong></p>
-            <p><span class = "titre">Alternance - Chargée de communication chez HYPERVIRTUAL, St Herblain</span><br/>Gestion des réseaux sociaux, création de visuels, évenementiel, accueil client</p>
+          <p><strong>Septembre à aujourd'hui</strong></p>
+           <li><p><span class = "titre">Alternance - Chargée de communication chez HYPERVIRTUAL, St Herblain</span><br/>Gestion des réseaux sociaux, création de visuels, évenementiel, accueil client</p></li> 
     
 
-            <p><strong>Juillet-Aout 2019</strong></p>
-            <p><span class = "titre">Travail Saisonnier</span><br/>Agent d'accueil, Piscine Loroux Bottereaux</p>
+            <p><strong>Janvier - Février 2019</strong></p>
+            <li><p><span class = "titre">Commerciale Junior</span><br/> Fournisseurs de produits bio, MIN de Rezé </p></li>
         
 
-            <p><strong>Octobre 2018-Septembre 2019</strong></p></B>
-                <p><span class = "titre">Travail Etudiant </span><br/>Parc de Loisirs Galipy, St Sebastien</p>>
+            <p><strong>Octobre-Novembre 2018</strong></p></B>
+            <li><p><span class = "titre">Commerciale Junior </span><br/>Agence de publicité, COMJR</p></li>
 
     </ul>
 </div>
@@ -113,7 +135,7 @@
                
    
     <div class="titres">
-        <h2>Autres Expériences Professionnelles</h2>
+        <h2>Autres Expériences Professionnelles</h2>
         </div>
 
 
@@ -122,19 +144,29 @@
     <ul>
         
 
-            <p>Septembre 2019 à Juillet 2020</p></B>
-            <p><span class = "titre">Ambassadrice</span><br/>MY DIGITAL SCHOOL, St Herblain</p>
-    
+           <p><strong>Septembre 2019 à Juillet 2020</strong></p></B>
+           <li><p><span class = "titre">Ambassadrice</span><br/>MY DIGITAL SCHOOL, St Herblain</p></li> 
+  </ul>
+</div>
+        <div>
+          <p><strong>Compétences</strong></p>
+          <li>Gestion Réseaux sociaux</li>
+          <li>Négocation et Relation Client</li>
+          <li>Analyse Performance Marketing</li>
+        </div>
+            
 
-            <B><p>Janvier-Février 2019</p></B>
-            <p><span class = "titre">Commercial junior dans l'entreprise e-commerce KERBIO, au MIN de Rezé</span><br/>Animation des points relais, création de flyers</p>
-        
+   
 
-            <B><p>Mai-Juin 2018</p></B>
-                <p><span class = "titre">Commercial junior dans agence de publicité chez COMJR, La Haie Fouassière</span><br/>Phoning, prospection physique</p><B>
+
  </div>
+
      
 
+
+   
+
 </body>
- 			
+      
+</html>
 </html>
